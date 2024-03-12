@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Practice</string>
+    <string name="onb_text_1">Quick Delivery At Your \nDoorstep</string>
+    <string name="onb_text_2">Enjoy quick pick-up and delivery to \nyour destination</string>
 </resources>
