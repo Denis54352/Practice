@@ -52,11 +52,13 @@ tools:context=".SecondActivity">
             android:layout_height="wrap_content"
             android:background="@drawable/my_button_bg"
             android:layout_marginRight="40dp"
+            android:layout_marginBottom="50dp"
             android:padding="15dp"
             android:text="Skip"
             android:textAllCaps="false"
             android:textColor="@color/text1"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:onClick="onClick"/>
 
         <Button
             android:id="@+id/button2"
@@ -65,9 +67,11 @@ tools:context=".SecondActivity">
             android:text="Next"
             android:textAllCaps="false"
             android:backgroundTint="@color/text1"
-            android:layout_marginLeft="150dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginBottom="50dp"
             android:padding="15dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:onClick="onClick2"/>
     </LinearLayout>
 </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
