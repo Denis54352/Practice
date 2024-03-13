@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="70dp"
-            tools:src="@drawable/onbimagetwo" />
+            android:src="@drawable/onbimagetwo" />
 
         <TextView
             android:id="@+id/textView3"
